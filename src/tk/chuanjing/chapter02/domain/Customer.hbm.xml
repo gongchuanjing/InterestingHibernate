@@ -16,7 +16,7 @@
 			key:它主要描述关联的多的一方产生的外键名称，注意要与多的一方定义
 			的外键名称相同 one-to-many 描述集合中的类型
 		-->
-		<set name="orders" cascade="save-update" inverse="true"><!-- cascade="save-update" delete-orphan delete-->
+		<set name="orders" cascade="save-update" inverse="true"><!-- cascade="save-update" delete-orphan delete all all-delete-orphan -->
 			<key column="o_customer_id" />
 			<one-to-many class="tk.chuanjing.chapter02.domain.Order" />
 		</set>

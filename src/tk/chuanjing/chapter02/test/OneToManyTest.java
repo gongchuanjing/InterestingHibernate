@@ -146,6 +146,7 @@ public class OneToManyTest {
 		Customer c = session.get(Customer.class, 1);
 		// 得到客户的订单
 		Order o = session.get(Order.class, 1);
+		
 		c.getOrders().remove(o);
 		
 		session.getTransaction().commit();

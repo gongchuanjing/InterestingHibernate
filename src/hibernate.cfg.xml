@@ -47,10 +47,11 @@
 		<mapping resource="tk/chuanjing/chapter01/domain/Customer.hbm.xml"/>
 		<mapping resource="tk/chuanjing/chapter02/domain/Customer.hbm.xml"/>
 		<mapping resource="tk/chuanjing/chapter02/domain/Order.hbm.xml"/>
-		<!--
+		
 		<mapping class="tk.chuanjing.chapter03.domain.Book"/>
 		<mapping class="tk.chuanjing.chapter03.domain.Person"/>
 		
+		<!--
 		<mapping class="tk.chuanjing.chapter03.oneToMany.Order"/>
 		<mapping class="tk.chuanjing.chapter03.oneToMany.Customer"/>
 		
