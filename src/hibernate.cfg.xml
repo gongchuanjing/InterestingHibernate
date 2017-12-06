@@ -8,7 +8,8 @@
 	
 		<!-- 配置关于数据库连接的四个项 driverClass url username password -->
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mybsae</property>
+		<!-- <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mybsae</property> -->
+		<property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/interestingssh</property>
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">12345</property>
 		
@@ -44,10 +45,9 @@
 	
 		<!-- 配置hibernate的映射文件所在位置 -->
 		<mapping resource="tk/chuanjing/chapter01/domain/Customer.hbm.xml"/>
-		<!--
 		<mapping resource="tk/chuanjing/chapter02/domain/Customer.hbm.xml"/>
 		<mapping resource="tk/chuanjing/chapter02/domain/Order.hbm.xml"/>
-		
+		<!--
 		<mapping class="tk.chuanjing.chapter03.domain.Book"/>
 		<mapping class="tk.chuanjing.chapter03.domain.Person"/>
 		

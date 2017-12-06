@@ -78,7 +78,7 @@ public class HibernateTest1 {
 		
 		// 根据业务来编写代码
 		Customer customer = session.get(Customer.class, 1);
-		customer.setName("咳咳");
+		customer.setName("李晓明");
 		session.update(customer);// 修改操作
 		
 		transaction.commit();		// 事务提交
