@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+	<class name="tk.chuanjing.chapter02.domain.Order" table="t_order">
+		<id name="id" column="o_id">
+			<generator class="identity" />
+		</id>
+		
+		<property name="money" column="o_money" />
+		<property name="receiverInfo" column="o_receiverInfo" length="50" />
+		
+		<!-- 多对一：
+			name属性它描述的是Order类中的一的一方的属性名称   Customer c;
+			class 代表一的一方的类型
+			column 描述的是一对多，在多的一方产生的外键的名称 c_customer_id
+		-->
+		<many-to-one name="customer" class="tk.chuanjing.chapter02.domain.Customer" column="o_customer_id" cascade="save-update"></many-to-one>
+	</class>
+</hibernate-mapping>
