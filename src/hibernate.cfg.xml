@@ -40,7 +40,7 @@
 		<!-- 设置事务隔离级别 -->
 		<property name="hibernate.connection.isolation">4</property>
 		
-		<!-- session与线程绑定 -->
+		<!-- session与线程绑定，方便事务操作 -->
 		<property name="hibernate.current_session_context_class">thread</property>
 	
 		<!-- 配置hibernate的映射文件所在位置 -->
@@ -51,7 +51,6 @@
 		<mapping class="tk.chuanjing.chapter03.domain.Book"/>
 		<mapping class="tk.chuanjing.chapter03.domain.Person"/>
 		
-		<!--
 		<mapping class="tk.chuanjing.chapter03.oneToMany.Order"/>
 		<mapping class="tk.chuanjing.chapter03.oneToMany.Customer"/>
 		
@@ -65,6 +64,5 @@
 		
 		<mapping class="tk.chuanjing.chapter03.select.Customer"/>
 		<mapping class="tk.chuanjing.chapter03.select.Order"/>
-		-->
 	</session-factory>
 </hibernate-configuration>

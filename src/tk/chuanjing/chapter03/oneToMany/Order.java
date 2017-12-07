@@ -64,6 +64,6 @@ public class Order {
 	@Override
 	public String toString() {
 		return "Order [id=" + id + ", money=" + money + ", receiverInfo="
-				+ receiverInfo + ", customer=" + customer + "]";
+				+ receiverInfo + ", customer=" + customer.getName() + "]";
 	}
 }

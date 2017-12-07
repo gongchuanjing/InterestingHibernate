@@ -52,7 +52,7 @@ public class HQLJoinTest {
 		String hql = "from Order o where o.customer.id = 1";
 		Query query = session.createQuery(hql);
 		List list = query.list();
-		System.out.println(list);
+		System.out.println("测试隐式内连接：" + list);
 		
 		session.getTransaction().commit();
 		session.close();

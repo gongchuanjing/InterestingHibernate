@@ -22,8 +22,6 @@ import org.hibernate.annotations.NamedNativeQuery;
 import org.hibernate.annotations.NamedQuery;
 import org.hibernate.annotations.Proxy;
 
-import tk.chuanjing.chapter03.oneToMany.Order;
-
 /**
  * @author ChuanJing
  * @date 2017年7月15日 下午8:20:49
