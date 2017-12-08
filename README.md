@@ -13,9 +13,48 @@
 
 ## 总体大纲（只列出了部分重要的技术点）
 	chapter01
-
+		核心配置文件配置
+		映射配置
+		测试代码编写
+		Transaction
+		Query
+		Criteria
+		
 	chapter02
-
+		持久化对象三种状态
+		一级缓存
+		持久化对象具有修改数据库能力
+		一级缓存常用操作
+		一对多
+			映射文件配置
+			保存操作测试
+			单向关联保存操作
+			双向维护分析与问题解决
+			对象导航
+			级联删除
+			
 	chapter03
-
+		PO类注解
+		注解一对多
+		注解多对多
+		注解一对一
+		HQL
+		QBC
+		本地SQL
+		
 	chapter04
+		HQL多表操作
+		事务隔离级别设置
+		管理session-与线程绑定session
+		一级缓存优化
+		检索策略-延迟加载与类级检索
+		检索策略-延迟对象初始化
+		抓取策略的注解配置和测试
+
+友情链接，其他技术的整理：
+	
+JavaSE：[InterestingJavaSE](https://github.com/gongchuanjing/InterestingJavaSE.git)
+
+JavaEE：[InterestingJavaEE](https://github.com/gongchuanjing/InterestingJavaEE.git)
+
+Struts2：[InterestingStruts2](https://github.com/gongchuanjing/InterestingStruts2.git)
