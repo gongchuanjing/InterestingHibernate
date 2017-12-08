@@ -51,8 +51,7 @@
 		检索策略-延迟对象初始化
 		抓取策略的注解配置和测试
 
-友情链接，其他技术的整理：
-	
+## 友情链接，其他技术的整理：
 JavaSE：[InterestingJavaSE](https://github.com/gongchuanjing/InterestingJavaSE.git)
 
 JavaEE：[InterestingJavaEE](https://github.com/gongchuanjing/InterestingJavaEE.git)
