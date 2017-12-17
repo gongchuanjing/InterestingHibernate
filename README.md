@@ -51,11 +51,15 @@
 		检索策略-延迟对象初始化
 		抓取策略的注解配置和测试
 
-## 友情链接，其他技术的整理：
+## 打个广告：其他技术的整理
 JavaSE：[InterestingJavaSE](https://github.com/gongchuanjing/InterestingJavaSE.git)
 
 JavaEE：[InterestingJavaEE](https://github.com/gongchuanjing/InterestingJavaEE.git)
 
 Struts2：[InterestingStruts2](https://github.com/gongchuanjing/InterestingStruts2.git)
 
-Spring：[InterestingStruts2](https://github.com/gongchuanjing/InterestingSpring.git)
+Spring：[InterestingSpring](https://github.com/gongchuanjing/InterestingSpring.git)
+
+SSH采用XML方式整合：[InterestingSSH_XML](https://github.com/gongchuanjing/InterestingSSH_XML.git)
+
+SSH采用注解方式整合：[InterestingSSH_annotation](https://github.com/gongchuanjing/InterestingSSH_annotation.git)
